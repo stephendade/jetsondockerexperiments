@@ -21,7 +21,7 @@ echo "Running $CONTAINER_NAME"
 docker run -it --rm \
     --privileged --network host \
     ${DOCKER_ARGS[@]} \
-    -v /home/jetson/docker_map:/docker_map \
+    -v /home/jetson/jetsondockerexperiments:/docker_map \
     -v /dev/shm:/dev/shm \
     --name "$CONTAINER_NAME" \
     --runtime nvidia \
