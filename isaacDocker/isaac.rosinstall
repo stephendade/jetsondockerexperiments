@@ -1,9 +1,12 @@
 - git:
     local-name: isaac_ros_common
+    version: release-ea3
     uri: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common.git
 - git:
     local-name: isaac_ros_image_pipeline
+    version: release-ea3
     uri: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_image_pipeline.git
 - git:
     local-name: isaac_ros_argus_camera
+    version: release-ea3
     uri: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_argus_camera.git
